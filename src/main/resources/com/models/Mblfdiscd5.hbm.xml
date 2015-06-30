@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 17, 2015 12:30:00 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class name="com.models.Mblfdiscd5" optimistic-lock="version" schema="USCYLLA5" table="MBLFDISCD5">
+    <id name="id" type="big_decimal">
+      <column name="ID" precision="22" scale="0"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="mtgl" type="date">
+      <column length="7" name="MTGL"/>
+    </property>
+    <property name="mslsno" type="string">
+      <column length="20" name="MSLSNO"/>
+    </property>
+    <property name="kode" type="string">
+      <column length="10" name="KODE"/>
+    </property>
+    <property name="xno" type="big_decimal">
+      <column name="XNO" precision="22" scale="0"/>
+    </property>
+    <property name="minrange" type="big_decimal">
+      <column name="MINRANGE" precision="22" scale="0"/>
+    </property>
+    <property name="maxrange" type="big_decimal">
+      <column name="MAXRANGE" precision="22" scale="0"/>
+    </property>
+    <property name="tkode" type="string">
+      <column length="1" name="TKODE"/>
+    </property>
+    <property name="tpercent" type="big_decimal">
+      <column name="TPERCENT" precision="22" scale="0"/>
+    </property>
+    <property name="tvalue" type="big_decimal">
+      <column name="TVALUE" precision="22" scale="0"/>
+    </property>
+  </class>
+</hibernate-mapping>

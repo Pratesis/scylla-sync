@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>
+    <property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+    <property name="hibernate.connection.url">jdbc:oracle:thin:@10.10.10.120:1521:DBSCYLLA</property>
+    <property name="hibernate.connection.username">uscylla5</property>
+    <property name="hibernate.connection.password">jcscyttirra</property>
+    <mapping resource="com/models/Mblfcheq.hbm.xml"/>
+    <mapping resource="com/models/Mblfembtipe.hbm.xml"/>
+    <mapping resource="com/models/Mblfpriced.hbm.xml"/>
+    <mapping resource="com/models/Mblftpr3h.hbm.xml"/>
+    <mapping resource="com/models/Mblfscyllad.hbm.xml"/>
+    <mapping resource="com/models/Mblfvdisinvh.hbm.xml"/>
+    <mapping resource="com/models/Mblftransfer.hbm.xml"/>
+    <mapping resource="com/models/Mblfdiscd5.hbm.xml"/>
+    <mapping resource="com/models/Mblfgrupout.hbm.xml"/>
+    <mapping resource="com/models/Mblfgdisc.hbm.xml"/>
+    <mapping resource="com/models/Mblftretur.hbm.xml"/>
+    <mapping resource="com/models/Mblfkompcust.hbm.xml"/>
+    <mapping resource="com/models/Mblftpr3d6.hbm.xml"/>
+    <mapping resource="com/models/Mblftpr3d5.hbm.xml"/>
+    <mapping resource="com/models/Mblfinfo.hbm.xml"/>
+    <mapping resource="com/models/Mblfvdisinvd.hbm.xml"/>
+    <mapping resource="com/models/Mblfreasonb.hbm.xml"/>
+    <mapping resource="com/models/Mblfdiscd6.hbm.xml"/>
+    <mapping resource="com/models/Mblfarretur.hbm.xml"/>
+    <mapping resource="com/models/Mblfaktivitas.hbm.xml"/>
+    <mapping resource="com/models/Mblfstcust.hbm.xml"/>
+    <mapping resource="com/models/Mblfbrand.hbm.xml"/>
+    <mapping resource="com/models/Mblftpr3d3.hbm.xml"/>
+    <mapping resource="com/models/Mblftypeout.hbm.xml"/>
+    <mapping resource="com/models/Mblftpr3d1.hbm.xml"/>
+    <mapping resource="com/models/Mblfkpl.hbm.xml"/>
+    <mapping resource="com/models/Mblfpckompt.hbm.xml"/>
+    <mapping resource="com/models/Mblfnote.hbm.xml"/>
+    <mapping resource="com/models/Mblfpiutang.hbm.xml"/>
+    <mapping resource="com/models/Mblfnotec.hbm.xml"/>
+    <mapping resource="com/models/Mblfkompetitor.hbm.xml"/>
+    <mapping resource="com/models/Mblfarcndn.hbm.xml"/>
+    <mapping resource="com/models/Mblfprlin.hbm.xml"/>
+    <mapping resource="com/models/Mblftpr3d2.hbm.xml"/>
+    <mapping resource="com/models/Mblfparam.hbm.xml"/>
+    <mapping resource="com/models/Mbltbiaya.hbm.xml"/>
+    <mapping resource="com/models/Mblfscyllah.hbm.xml"/>
+    <mapping resource="com/models/Mblfmaster.hbm.xml"/>
+    <mapping resource="com/models/Mblfpckdisc.hbm.xml"/>
+    <mapping resource="com/models/Mblfbotol.hbm.xml"/>
+    <mapping resource="com/models/Mblftarget.hbm.xml"/>
+    <mapping resource="com/models/Mblfgharga.hbm.xml"/>
+    <mapping resource="com/models/Mblfcustmst.hbm.xml"/>
+    <mapping resource="com/models/Mblfprice.hbm.xml"/>
+    <mapping resource="com/models/Mblfdisch.hbm.xml"/>
+    <mapping resource="com/models/Mblfgrowth.hbm.xml"/>
+    <mapping resource="com/models/Mblfrute.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

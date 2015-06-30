@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 17, 2015 12:30:00 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class name="com.models.Mblfpiutang" optimistic-lock="version" schema="USCYLLA5" table="MBLFPIUTANG">
+    <id name="id" type="big_decimal">
+      <column name="ID" precision="22" scale="0"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="mtgl" type="date">
+      <column length="7" name="MTGL"/>
+    </property>
+    <property name="mslsno" type="string">
+      <column length="20" name="MSLSNO"/>
+    </property>
+    <property name="custno" type="string">
+      <column length="15" name="CUSTNO"/>
+    </property>
+    <property name="invno" type="string">
+      <column length="8" name="INVNO"/>
+    </property>
+    <property name="invdate" type="string">
+      <column length="10" name="INVDATE"/>
+    </property>
+    <property name="duedate" type="string">
+      <column length="10" name="DUEDATE"/>
+    </property>
+    <property name="invamount" type="big_decimal">
+      <column name="INVAMOUNT" precision="22" scale="0"/>
+    </property>
+    <property name="amountpaid" type="big_decimal">
+      <column name="AMOUNTPAID" precision="22" scale="0"/>
+    </property>
+    <property name="flag" type="string">
+      <column length="1" name="FLAG"/>
+    </property>
+    <property name="slsno" type="string">
+      <column length="15" name="SLSNO"/>
+    </property>
+    <property name="slsname" type="string">
+      <column length="25" name="SLSNAME"/>
+    </property>
+    <property name="notagihan" type="string">
+      <column length="8" name="NOTAGIHAN"/>
+    </property>
+  </class>
+</hibernate-mapping>

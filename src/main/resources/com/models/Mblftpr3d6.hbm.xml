@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 17, 2015 12:30:00 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class name="com.models.Mblftpr3d6" optimistic-lock="version" schema="USCYLLA5" table="MBLFTPR3D6">
+    <id name="id" type="big_decimal">
+      <column name="ID" precision="22" scale="0"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="mtgl" type="date">
+      <column length="7" name="MTGL"/>
+    </property>
+    <property name="mslsno" type="string">
+      <column length="20" name="MSLSNO"/>
+    </property>
+    <property name="kode" type="string">
+      <column length="40" name="KODE"/>
+    </property>
+    <property name="pcode" type="string">
+      <column length="15" name="PCODE"/>
+    </property>
+    <property name="minrp" type="big_decimal">
+      <column name="MINRP" precision="22" scale="0"/>
+    </property>
+    <property name="minqty" type="big_decimal">
+      <column name="MINQTY" precision="22" scale="0"/>
+    </property>
+    <property name="xminqty" type="string">
+      <column length="14" name="XMINQTY"/>
+    </property>
+    <property name="flagada" type="string">
+      <column length="1" name="FLAGADA"/>
+    </property>
+  </class>
+</hibernate-mapping>

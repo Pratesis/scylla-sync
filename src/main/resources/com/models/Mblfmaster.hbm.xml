@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 17, 2015 12:30:00 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class name="com.models.Mblfmaster" optimistic-lock="version" schema="USCYLLA5" table="MBLFMASTER">
+    <id name="id" type="big_decimal">
+      <column name="ID" precision="22" scale="0"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="mtgl" type="date">
+      <column length="7" name="MTGL"/>
+    </property>
+    <property name="mslsno" type="string">
+      <column length="20" name="MSLSNO"/>
+    </property>
+    <property name="pcode" type="string">
+      <column length="15" name="PCODE"/>
+    </property>
+    <property name="data1" type="string">
+      <column length="18" name="DATA1"/>
+    </property>
+    <property name="pcodename" type="string">
+      <column length="40" name="PCODENAME"/>
+    </property>
+    <property name="unit1" type="string">
+      <column length="3" name="UNIT1"/>
+    </property>
+    <property name="unit2" type="string">
+      <column length="3" name="UNIT2"/>
+    </property>
+    <property name="unit3" type="string">
+      <column length="3" name="UNIT3"/>
+    </property>
+    <property name="convunit2" type="big_decimal">
+      <column name="CONVUNIT2" precision="22" scale="0"/>
+    </property>
+    <property name="convunit3" type="big_decimal">
+      <column name="CONVUNIT3" precision="22" scale="0"/>
+    </property>
+    <property name="sellprice1" type="big_decimal">
+      <column name="SELLPRICE1" precision="22" scale="0"/>
+    </property>
+    <property name="sellprice2" type="big_decimal">
+      <column name="SELLPRICE2" precision="22" scale="0"/>
+    </property>
+    <property name="sellprice3" type="big_decimal">
+      <column name="SELLPRICE3" precision="22" scale="0"/>
+    </property>
+    <property name="pbmjual" type="big_decimal">
+      <column name="PBMJUAL" precision="22" scale="0"/>
+    </property>
+    <property name="stock" type="big_decimal">
+      <column name="STOCK" precision="22" scale="0"/>
+    </property>
+    <property name="xstock" type="string">
+      <column length="14" name="XSTOCK"/>
+    </property>
+    <property name="flagfocus" type="string">
+      <column length="1" name="FLAGFOCUS"/>
+    </property>
+    <property name="prlin" type="string">
+      <column length="3" name="PRLIN"/>
+    </property>
+    <property name="brand" type="string">
+      <column length="7" name="BRAND"/>
+    </property>
+    <property name="ppn" type="big_decimal">
+      <column name="PPN" precision="22" scale="0"/>
+    </property>
+    <property name="ppndp" type="big_decimal">
+      <column name="PPNDP" precision="22" scale="0"/>
+    </property>
+    <property name="embincId" type="string">
+      <column length="5" name="EMBINC_ID"/>
+    </property>
+    <property name="embexcId" type="string">
+      <column length="5" name="EMBEXC_ID"/>
+    </property>
+  </class>
+</hibernate-mapping>

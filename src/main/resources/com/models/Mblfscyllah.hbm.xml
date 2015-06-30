@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 17, 2015 12:30:00 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class name="com.models.Mblfscyllah" optimistic-lock="version" schema="USCYLLA5" table="MBLFSCYLLAH">
+    <id name="id" type="big_decimal">
+      <column name="ID" precision="22" scale="0"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="kode" type="string">
+      <column length="30" name="KODE"/>
+    </property>
+    <property name="tgl" type="string">
+      <column length="8" name="TGL"/>
+    </property>
+    <property name="slsno" type="string">
+      <column length="20" name="SLSNO"/>
+    </property>
+    <property name="distri" type="string">
+      <column length="20" name="DISTRI"/>
+    </property>
+    <property name="status" type="string">
+      <column length="1" name="STATUS"/>
+    </property>
+    <property name="stprs" type="string">
+      <column length="1" name="STPRS"/>
+    </property>
+  </class>
+</hibernate-mapping>

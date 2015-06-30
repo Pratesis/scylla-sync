@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 17, 2015 12:30:00 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class name="com.models.Mblfkpl" optimistic-lock="version" schema="USCYLLA5" table="MBLFKPL">
+    <id name="id" type="big_decimal">
+      <column name="ID" precision="22" scale="0"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="mtgl" type="date">
+      <column length="7" name="MTGL"/>
+    </property>
+    <property name="mslsno" type="string">
+      <column length="20" name="MSLSNO"/>
+    </property>
+    <property name="custno" type="string">
+      <column length="15" name="CUSTNO"/>
+    </property>
+    <property name="pcode" type="string">
+      <column length="15" name="PCODE"/>
+    </property>
+    <property name="flag" type="string">
+      <column length="1" name="FLAG"/>
+    </property>
+    <property name="data5" type="big_decimal">
+      <column name="DATA5" precision="22" scale="0"/>
+    </property>
+    <property name="data6" type="big_decimal">
+      <column name="DATA6" precision="22" scale="0"/>
+    </property>
+    <property name="data7" type="big_decimal">
+      <column name="DATA7" precision="22" scale="0"/>
+    </property>
+    <property name="lastcall1" type="big_decimal">
+      <column name="LASTCALL1" precision="22" scale="0"/>
+    </property>
+    <property name="lastcall2" type="big_decimal">
+      <column name="LASTCALL2" precision="22" scale="0"/>
+    </property>
+    <property name="lastcall3" type="big_decimal">
+      <column name="LASTCALL3" precision="22" scale="0"/>
+    </property>
+    <property name="lastcall4" type="big_decimal">
+      <column name="LASTCALL4" precision="22" scale="0"/>
+    </property>
+    <property name="lastsls1" type="big_decimal">
+      <column name="LASTSLS1" precision="22" scale="0"/>
+    </property>
+    <property name="lastsls2" type="big_decimal">
+      <column name="LASTSLS2" precision="22" scale="0"/>
+    </property>
+    <property name="lastsls3" type="big_decimal">
+      <column name="LASTSLS3" precision="22" scale="0"/>
+    </property>
+    <property name="lastsls4" type="big_decimal">
+      <column name="LASTSLS4" precision="22" scale="0"/>
+    </property>
+    <property name="beli" type="big_decimal">
+      <column name="BELI" precision="22" scale="0"/>
+    </property>
+  </class>
+</hibernate-mapping>

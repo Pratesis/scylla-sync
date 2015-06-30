@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 17, 2015 12:30:00 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class name="com.models.Mblfparam" optimistic-lock="version" schema="USCYLLA5" table="MBLFPARAM">
+    <id name="id" type="big_decimal">
+      <column name="ID" precision="22" scale="0"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="mtgl" type="date">
+      <column length="7" name="MTGL"/>
+    </property>
+    <property name="slsno" type="string">
+      <column length="15" name="SLSNO"/>
+    </property>
+    <property name="slsname" type="string">
+      <column length="25" name="SLSNAME"/>
+    </property>
+    <property name="slstp" type="string">
+      <column length="1" name="SLSTP"/>
+    </property>
+    <property name="weekno" type="big_decimal">
+      <column name="WEEKNO" precision="22" scale="0"/>
+    </property>
+    <property name="prdno" type="big_decimal">
+      <column name="PRDNO" precision="22" scale="0"/>
+    </property>
+    <property name="transdate" type="string">
+      <column length="10" name="TRANSDATE"/>
+    </property>
+    <property name="team" type="string">
+      <column length="4" name="TEAM"/>
+    </property>
+    <property name="teamdesc" type="string">
+      <column length="25" name="TEAMDESC"/>
+    </property>
+    <property name="ruteno" type="big_decimal">
+      <column name="RUTENO" precision="22" scale="0"/>
+    </property>
+    <property name="nruteno" type="big_decimal">
+      <column name="NRUTENO" precision="22" scale="0"/>
+    </property>
+    <property name="slspass" type="string">
+      <column length="15" name="SLSPASS"/>
+    </property>
+    <property name="growth" type="big_decimal">
+      <column name="GROWTH" precision="22" scale="0"/>
+    </property>
+    <property name="distbarc" type="string">
+      <column length="20" name="DISTBARC"/>
+    </property>
+    <property name="distid" type="string">
+      <column length="6" name="DISTID"/>
+    </property>
+    <property name="distnm" type="string">
+      <column length="30" name="DISTNM"/>
+    </property>
+    <property name="flagrute" type="string">
+      <column length="1" name="FLAGRUTE"/>
+    </property>
+    <property name="target" type="big_decimal">
+      <column name="TARGET" precision="22" scale="0"/>
+    </property>
+    <property name="pc" type="big_decimal">
+      <column name="PC" precision="22" scale="0"/>
+    </property>
+    <property name="ec" type="big_decimal">
+      <column name="EC" precision="22" scale="0"/>
+    </property>
+    <property name="actcust" type="string">
+      <column length="10" name="ACTCUST"/>
+    </property>
+    <property name="seqdummy" type="big_decimal">
+      <column name="SEQDUMMY" precision="22" scale="0"/>
+    </property>
+    <property name="flagcash" type="string">
+      <column length="1" name="FLAGCASH"/>
+    </property>
+    <property name="maxvisit" type="big_decimal">
+      <column name="MAXVISIT" precision="22" scale="0"/>
+    </property>
+    <property name="flagkompttr" type="string">
+      <column length="1" name="FLAGKOMPTTR"/>
+    </property>
+    <property name="flagcashdiscr" type="string">
+      <column length="1" name="FLAGCASHDISCR"/>
+    </property>
+    <property name="flagkunjung" type="string">
+      <column length="1" name="FLAGKUNJUNG"/>
+    </property>
+    <property name="flaglevdis" type="string">
+      <column length="1" name="FLAGLEVDIS"/>
+    </property>
+    <property name="flagapl" type="string">
+      <column length="1" name="FLAGAPL"/>
+    </property>
+    <property name="flagtop" type="string">
+      <column length="1" name="FLAGTOP"/>
+    </property>
+    <property name="lblpc1" type="string">
+      <column length="15" name="LBLPC1"/>
+    </property>
+    <property name="lblpc2" type="string">
+      <column length="15" name="LBLPC2"/>
+    </property>
+    <property name="lblpc3" type="string">
+      <column length="15" name="LBLPC3"/>
+    </property>
+    <property name="lblot1" type="string">
+      <column length="15" name="LBLOT1"/>
+    </property>
+    <property name="lblot2" type="string">
+      <column length="15" name="LBLOT2"/>
+    </property>
+    <property name="lblot3" type="string">
+      <column length="15" name="LBLOT3"/>
+    </property>
+    <property name="flagprs" type="string">
+      <column length="1" name="FLAGPRS"/>
+    </property>
+  </class>
+</hibernate-mapping>

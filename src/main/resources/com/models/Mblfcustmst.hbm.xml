@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 17, 2015 12:30:00 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class name="com.models.Mblfcustmst" optimistic-lock="version" schema="USCYLLA5" table="MBLFCUSTMST">
+    <id name="id" type="big_decimal">
+      <column name="ID" precision="22" scale="0"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="mtgl" type="date">
+      <column length="7" name="MTGL"/>
+    </property>
+    <property name="mslsno" type="string">
+      <column length="20" name="MSLSNO"/>
+    </property>
+    <property name="custno" type="string">
+      <column length="15" name="CUSTNO"/>
+    </property>
+    <property name="data01" type="string">
+      <column length="18" name="DATA01"/>
+    </property>
+    <property name="custname" type="string">
+      <column length="25" name="CUSTNAME"/>
+    </property>
+    <property name="custadd1" type="string">
+      <column length="25" name="CUSTADD1"/>
+    </property>
+    <property name="custadd2" type="string">
+      <column length="25" name="CUSTADD2"/>
+    </property>
+    <property name="ccity" type="string">
+      <column length="25" name="CCITY"/>
+    </property>
+    <property name="ccontact" type="string">
+      <column length="25" name="CCONTACT"/>
+    </property>
+    <property name="cphone1" type="string">
+      <column length="25" name="CPHONE1"/>
+    </property>
+    <property name="cfaxno" type="string">
+      <column length="25" name="CFAXNO"/>
+    </property>
+    <property name="cterm" type="big_decimal">
+      <column name="CTERM" precision="22" scale="0"/>
+    </property>
+    <property name="climit" type="big_decimal">
+      <column name="CLIMIT" precision="22" scale="0"/>
+    </property>
+    <property name="flaglimit" type="string">
+      <column length="1" name="FLAGLIMIT"/>
+    </property>
+    <property name="gdisc" type="string">
+      <column length="2" name="GDISC"/>
+    </property>
+    <property name="typeout" type="string">
+      <column length="3" name="TYPEOUT"/>
+    </property>
+    <property name="grupout" type="string">
+      <column length="3" name="GRUPOUT"/>
+    </property>
+    <property name="gharga" type="string">
+      <column length="3" name="GHARGA"/>
+    </property>
+    <property name="flagvisit" type="string">
+      <column length="1" name="FLAGVISIT"/>
+    </property>
+    <property name="vdisc" type="string">
+      <column length="10" name="VDISC"/>
+    </property>
+    <property name="daycode" type="string">
+      <column length="1" name="DAYCODE"/>
+    </property>
+    <property name="info1" type="string">
+      <column length="50" name="INFO1"/>
+    </property>
+    <property name="info2" type="string">
+      <column length="50" name="INFO2"/>
+    </property>
+    <property name="flagpay" type="string">
+      <column length="1" name="FLAGPAY"/>
+    </property>
+    <property name="flagout" type="string">
+      <column length="1" name="FLAGOUT"/>
+    </property>
+    <property name="rpp" type="big_decimal">
+      <column name="RPP" precision="22" scale="0"/>
+    </property>
+    <property name="lsales" type="big_decimal">
+      <column name="LSALES" precision="22" scale="0"/>
+    </property>
+    <property name="visit1" type="string">
+      <column length="1" name="VISIT1"/>
+    </property>
+    <property name="visit2" type="string">
+      <column length="1" name="VISIT2"/>
+    </property>
+    <property name="visit3" type="string">
+      <column length="1" name="VISIT3"/>
+    </property>
+    <property name="visit4" type="string">
+      <column length="1" name="VISIT4"/>
+    </property>
+    <property name="ldatetrs" type="string">
+      <column length="10" name="LDATETRS"/>
+    </property>
+    <property name="lokasi" type="string">
+      <column length="50" name="LOKASI"/>
+    </property>
+    <property name="distrik" type="string">
+      <column length="50" name="DISTRIK"/>
+    </property>
+    <property name="beat" type="string">
+      <column length="50" name="BEAT"/>
+    </property>
+    <property name="subbeat" type="string">
+      <column length="50" name="SUBBEAT"/>
+    </property>
+    <property name="klasif" type="string">
+      <column length="50" name="KLASIF"/>
+    </property>
+    <property name="kindus" type="string">
+      <column length="50" name="KINDUS"/>
+    </property>
+    <property name="kpasar" type="string">
+      <column length="50" name="KPASAR"/>
+    </property>
+    <property name="flagcust" type="string">
+      <column length="1" name="FLAGCUST"/>
+    </property>
+    <property name="flagemb" type="string">
+      <column length="1" name="FLAGEMB"/>
+    </property>
+  </class>
+</hibernate-mapping>

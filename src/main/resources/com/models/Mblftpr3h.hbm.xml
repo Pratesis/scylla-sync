@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 17, 2015 12:30:00 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class name="com.models.Mblftpr3h" optimistic-lock="version" schema="USCYLLA5" table="MBLFTPR3H">
+    <id name="id" type="big_decimal">
+      <column name="ID" precision="22" scale="0"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="mtgl" type="date">
+      <column length="7" name="MTGL"/>
+    </property>
+    <property name="mslsno" type="string">
+      <column length="20" name="MSLSNO"/>
+    </property>
+    <property name="kode" type="string">
+      <column length="40" name="KODE"/>
+    </property>
+    <property name="ket" type="string">
+      <column length="40" name="KET"/>
+    </property>
+    <property name="flagtype" type="string">
+      <column length="1" name="FLAGTYPE"/>
+    </property>
+    <property name="flaggrup" type="string">
+      <column length="1" name="FLAGGRUP"/>
+    </property>
+    <property name="flgout" type="string">
+      <column length="1" name="FLGOUT"/>
+    </property>
+    <property name="flagrange" type="string">
+      <column length="1" name="FLAGRANGE"/>
+    </property>
+    <property name="pctpr" type="string">
+      <column length="15" name="PCTPR"/>
+    </property>
+    <property name="flagsypc" type="string">
+      <column length="1" name="FLAGSYPC"/>
+    </property>
+    <property name="flagjmlpc" type="big_decimal">
+      <column name="FLAGJMLPC" precision="22" scale="0"/>
+    </property>
+    <property name="flagmult" type="string">
+      <column length="1" name="FLAGMULT"/>
+    </property>
+    <property name="selllimit" type="big_decimal">
+      <column name="SELLLIMIT" precision="22" scale="0"/>
+    </property>
+    <property name="multipercent" type="big_decimal">
+      <column name="MULTIPERCENT" precision="22" scale="0"/>
+    </property>
+    <property name="multvalue" type="big_decimal">
+      <column name="MULTVALUE" precision="22" scale="0"/>
+    </property>
+    <property name="multqty" type="big_decimal">
+      <column name="MULTQTY" precision="22" scale="0"/>
+    </property>
+    <property name="multxqty" type="string">
+      <column length="14" name="MULTXQTY"/>
+    </property>
+    <property name="begdate" type="string">
+      <column length="10" name="BEGDATE"/>
+    </property>
+    <property name="enddate" type="string">
+      <column length="10" name="ENDDATE"/>
+    </property>
+    <property name="minbeli" type="big_decimal">
+      <column name="MINBELI" precision="22" scale="0"/>
+    </property>
+    <property name="nbrutto" type="big_decimal">
+      <column name="NBRUTTO" precision="22" scale="0"/>
+    </property>
+    <property name="pctpr1" type="string">
+      <column length="15" name="PCTPR1"/>
+    </property>
+    <property name="pctpr2" type="string">
+      <column length="15" name="PCTPR2"/>
+    </property>
+    <property name="pctpr3" type="string">
+      <column length="15" name="PCTPR3"/>
+    </property>
+    <property name="pctpr4" type="string">
+      <column length="15" name="PCTPR4"/>
+    </property>
+    <property name="pctpr5" type="string">
+      <column length="15" name="PCTPR5"/>
+    </property>
+    <property name="pctpr6" type="string">
+      <column length="15" name="PCTPR6"/>
+    </property>
+    <property name="pctpr7" type="string">
+      <column length="15" name="PCTPR7"/>
+    </property>
+    <property name="pctpr8" type="string">
+      <column length="15" name="PCTPR8"/>
+    </property>
+    <property name="pctpr9" type="string">
+      <column length="15" name="PCTPR9"/>
+    </property>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 17, 2015 12:30:00 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class name="com.models.Mblfarcndn" optimistic-lock="version" schema="USCYLLA5" table="MBLFARCNDN">
+    <id name="id" type="big_decimal">
+      <column name="ID" precision="22" scale="0"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="mtgl" type="string">
+      <column length="7" name="MTGL"/>
+    </property>
+    <property name="mslsno" type="string">
+      <column length="20" name="MSLSNO"/>
+    </property>
+    <property name="docno" type="string">
+      <column length="8" name="DOCNO"/>
+    </property>
+    <property name="docdate" type="string">
+      <column length="10" name="DOCDATE"/>
+    </property>
+    <property name="flag1" type="string">
+      <column length="1" name="FLAG1"/>
+    </property>
+    <property name="custno" type="string">
+      <column length="15" name="CUSTNO"/>
+    </property>
+    <property name="amount" type="big_decimal">
+      <column name="AMOUNT" precision="22" scale="0"/>
+    </property>
+    <property name="remark" type="string">
+      <column length="30" name="REMARK"/>
+    </property>
+    <property name="kode" type="string">
+      <column length="20" name="KODE"/>
+    </property>
+    <property name="payamt" type="big_decimal">
+      <column name="PAYAMT" precision="22" scale="0"/>
+    </property>
+    <property name="flag2" type="string">
+      <column length="1" name="FLAG2"/>
+    </property>
+  </class>
+</hibernate-mapping>

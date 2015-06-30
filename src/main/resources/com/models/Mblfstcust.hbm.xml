@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 17, 2015 12:30:00 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class name="com.models.Mblfstcust" optimistic-lock="version" schema="USCYLLA5" table="MBLFSTCUST">
+    <id name="id" type="big_decimal">
+      <column name="ID" precision="22" scale="0"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="mtgl" type="date">
+      <column length="7" name="MTGL"/>
+    </property>
+    <property name="mslsno" type="string">
+      <column length="20" name="MSLSNO"/>
+    </property>
+    <property name="custno" type="string">
+      <column length="15" name="CUSTNO"/>
+    </property>
+    <property name="pcode" type="string">
+      <column length="15" name="PCODE"/>
+    </property>
+    <property name="pcodename" type="string">
+      <column length="80" name="PCODENAME"/>
+    </property>
+    <property name="unit1" type="string">
+      <column length="3" name="UNIT1"/>
+    </property>
+    <property name="unit2" type="string">
+      <column length="3" name="UNIT2"/>
+    </property>
+    <property name="unit3" type="string">
+      <column length="3" name="UNIT3"/>
+    </property>
+    <property name="convunit2" type="big_decimal">
+      <column name="CONVUNIT2" precision="22" scale="0"/>
+    </property>
+    <property name="convunit3" type="big_decimal">
+      <column name="CONVUNIT3" precision="22" scale="0"/>
+    </property>
+    <property name="sellprice1" type="big_decimal">
+      <column name="SELLPRICE1" precision="22" scale="0"/>
+    </property>
+    <property name="sellprice2" type="big_decimal">
+      <column name="SELLPRICE2" precision="22" scale="0"/>
+    </property>
+    <property name="sellprice3" type="big_decimal">
+      <column name="SELLPRICE3" precision="22" scale="0"/>
+    </property>
+    <property name="qty" type="big_decimal">
+      <column name="QTY" precision="22" scale="0"/>
+    </property>
+    <property name="xqty" type="string">
+      <column length="14" name="XQTY"/>
+    </property>
+    <property name="prlin" type="string">
+      <column length="3" name="PRLIN"/>
+    </property>
+    <property name="brand" type="string">
+      <column length="7" name="BRAND"/>
+    </property>
+  </class>
+</hibernate-mapping>
